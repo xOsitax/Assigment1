@@ -8,23 +8,41 @@ body {
   font-family: arial;
   overflow-y: auto;
 }
-/*About Us*/
+h1 {
+  color: #262626;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: 2px 2px 20px orange;
+  text-align: center;
+}
+h2 {
+  color: #262626;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  text-shadow: 2px 2px 20px gray;
+  text-align: center;
+}
+/*About Us  */
 .about-us {
   background-color: gray;
   padding: 20px;
   border: 1px solid black;
   border-radius: 8px;
   text-align: justify;
+  box-sizing: border-box;
+  font-size: 200px;
 }
 .about-us h2 {
   text-align: center;
   color: black;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .about-us p {
   font-size: 15px;
   line-height: 1.5;
-  color: #c7dcdd;
+  color: black;
   margin-bottom: 15px;
 }
 .about-us img {
@@ -113,8 +131,14 @@ li.dropdown {
   margin-bottom: 20px;
 }
 .s-container img {
-  width: 100px;
-  height: auto;
-
+  max-height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 8px;
+  box-shadow: 10px 10px 20px gray;
 }

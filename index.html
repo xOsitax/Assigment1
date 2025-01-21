@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
     <title>Voltec</title>
   </head>
   <body>
@@ -13,22 +13,25 @@
       </div>
       <nav>
         <ul>
-          <li><a href="../styles/index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Services</a>
+            <a class="dropbtn" href="#our-services">Our Services</a>
+            <!-- it will link to the services  -->
             <div class="dropdown-content">
               <a href="Installations.html">Installations</a>
               <a href="EmergencyService.html">Emergency Service</a>
             </div>
           </li>
+
           <li><a href="../pages/contact.html">Contact Us</a></li>
         </ul>
       </nav>
 
       <section class="about-us">
-        <h2>Welcome to Voltec Services</h2>
+        <h1>Welcome to Voltec Services</h1>
 
         <img
+          class="logo"
           src="../Images/Voltec.png"
           alt="Electricity Services"
           width="200"
@@ -36,22 +39,23 @@
         />
 
         <p>
-          <strong>Voltec</strong>, we take care of everything providing reliable
-          and affordable solutions for all your electrical needs. We are founded
-          in Bräcke, our company was established with a mission to help people
-          tackle their electricity problems With over 10 years fo experience
-          serving the Bräcke and surrounding communities, we have built a
-          reputation for excellence, and trust. While Bräcke remains our home we
-          are extending our expertice to neighboring areas.
+          <strong>In Voltec</strong> we take care of everything providing
+          reliable and affordable solutions for all your electrical needs. We
+          are founded in Bräcke, our company was established with a mission to
+          help people tackle their electricity problems With over 10 years fo
+          experience serving the Bräcke and surrounding communities, we have
+          built a reputation for excellence, and trust. While Bräcke remains our
+          home we are extending our expertice to neighboring areas.
         </p>
       </section>
       <section class="service">
-        <h2>Our Services</h2>
+        <h2 id="our-services">Our Services</h2>
         <div class="s-container">
           <div class="service-item">
             <img
               src="../Images/Installation.jpg"
               alt="installations"
+              title="Certified Electrician installing a light"
               width="200"
               height="200"
             />
@@ -67,6 +71,7 @@
             <img
               src="../Images/Emergency.jpg"
               alt="Emergency Service"
+              title="Emergency man running"
               width="200"
               height="200"
             />
@@ -82,6 +87,7 @@
             <img
               src="../Images/Outlet.png"
               alt="Emergency Service"
+              title="outlet"
               width="200"
               height="200"
             />
